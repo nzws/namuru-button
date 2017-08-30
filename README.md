@@ -12,7 +12,10 @@ __インストールにはTampermonkey等のユーザースクリプトマネー
 [Github](https://github.com/yuzulabo/namuru-button)
 
 ### 「ゴーン」効果音について
-効果音はフリー素材を使用しています。 [魔王魂](http://maoudamashii.jokersounds.com/)
+フリー素材を使用しています。 [魔王魂](http://maoudamashii.jokersounds.com/)
+
+### 「チーン」効果音について
+フリー素材を使用しています。http://nico.ms/nc42872
 
 ### レア音声：神崎おにいさんについて
 可視光線様のKNZK_ZONEの一部を使用しています。http://nico.ms/sm31146004
