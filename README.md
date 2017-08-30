@@ -5,7 +5,7 @@
 ※このスクリプトは音声が流れます
 
 
-[Greasy Fork](https://greasyfork.org/ja/scripts/32612-knzk-singing)   
+[Greasy Fork](https://greasyfork.org/ja/scripts/32694-namuru-button)   
 [Github](https://github.com/yuzulabo/namuru-button)
 
 ### 連絡先
