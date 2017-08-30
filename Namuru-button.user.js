@@ -41,7 +41,7 @@
     audio2_elem.setAttribute('preload', 'auto');
 
     var audio3_elem = document.createElement("audio");
-    audio3_elem.src = "https://yuzu.tk/files/yuzu_1203/nc42872.mp3";
+    audio3_elem.src = "https://yuzu.tk/files/yuzu_1203/nc42872.wav";
     audio3_elem.setAttribute('controls', '0');
     audio3_elem.setAttribute('id', 'namuru3_audio');
     audio3_elem.setAttribute('preload', 'auto');
