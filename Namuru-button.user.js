@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Namuru-button
 // @namespace    https://github.com/yuzulabo
-// @version      1.2.0
+// @version      1.2.1
 // @description  南無りまくれぇ！
 // @author       neziri_wasabi (yuzu_1203)
 // @match        https://knzkoniisan.m.to/*
