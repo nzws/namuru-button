@@ -13,7 +13,7 @@
 // 効果音はフリー素材を使用しています。 http://maoudamashii.jokersounds.com/
 
 (function() {
-    var css = ".fa-star:before {content: \"\ﾅﾑ\";}";
+    var css = ".fa-star:before {content: \"\ﾅﾑ\";white-space: nowrap;}";
     var node = document.createElement("style");
     node.type = "text/css";
     node.appendChild(document.createTextNode(css));
