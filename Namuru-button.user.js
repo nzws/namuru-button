@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Namuru-button
 // @namespace    https://github.com/yuzulabo
-// @version      1.3.0
+// @version      1.3.1
 // @description  南無りまくれぇ！
 // @author       neziri_wasabi (yuzu_1203)
 // @match        https://knzkoniisan.m.to/*
@@ -24,7 +24,11 @@
  連絡先: https://knzkoniisan.m.to/@y
 */
 (function() {
-    var css = ".fa-star:before {content: \"\ﾅﾑ\";white-space: nowrap;}";
+    var css = ".fa-star:before {content: \"ﾅﾑ\";white-space: nowrap;}";
+
+    //Ωベータ　次の行のコメントアウト( // の部分) を消して下さい。
+    // css = ".fa-star:before {content: \"Ω\";white-space: nowrap;}";
+
     var node = document.createElement("style");
     node.type = "text/css";
     node.appendChild(document.createTextNode(css));
