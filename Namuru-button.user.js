@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Namuru-button
 // @namespace    https://github.com/yuzulabo
-// @version      1.3.1
+// @version      1.3.2
 // @description  南無りまくれぇ！
 // @author       neziri_wasabi (yuzu_1203)
 // @match        https://knzkoniisan.m.to/*
@@ -15,6 +15,9 @@
 
 「チーン」効果音について
 フリー素材を使用しています。http://nico.ms/nc42872
+
+ 木魚　効果音について
+ フリー素材を使用しています。http://nico.ms/nc92438
 
  レア音声：神崎おにいさんについて
  1: 可視光線様のKNZK_ZONEの一部を使用しています。: http://nico.ms/sm31146004
@@ -53,6 +56,9 @@
 
     rand_sp[1] = 3;
     audio_src[3] = "https://yuzu.tk/files/yuzu_1203/knzk2.wav";
+
+    rand_def[2] = 4;
+    audio_src[4] = "https://yuzu.tk/files/yuzu_1203/nc92438.wav";
 
     var i = 0;
     while (audio_src[i]) {
