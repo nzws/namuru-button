@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Namuru-button
 // @namespace    https://github.com/yuzulabo
-// @version      1.3.2
+// @version      1.4.0
 // @description  南無りまくれぇ！
 // @author       neziri_wasabi (yuzu_1203)
 // @match        https://knzkoniisan.m.to/*
@@ -27,10 +27,10 @@
  連絡先: https://knzkoniisan.m.to/@y
 */
 (function() {
-    var css = ".fa-star:before {content: \"ﾅﾑ\";white-space: nowrap;}";
+    var css = ".star-icon {filter: grayscale(100%);}.fa-star:before{content: \"\\1F64F\";white-space: nowrap;} .star-icon.active {filter: none;}";
 
-    //Ωベータ　次の行のコメントアウト( // の部分) を消して下さい。
-    // css = ".fa-star:before {content: \"Ω\";white-space: nowrap;}";
+    // 旧版「ﾅﾑ」ボタンを有効化するには次の行のコメントアウトを削除
+    // css = ".fa-star:before {content: \"ﾅﾑ\";white-space: nowrap;}";
 
     var node = document.createElement("style");
     node.type = "text/css";
@@ -77,7 +77,7 @@
     var rand_sp_mode = 0;
     var audio_rand = 0;
     var audio_mode = 9999;
-    $(document).on('click', 'button.star-icon', function() {
+    $(document).on('click', 'button.star-icon', function(event) {
         audio_mode = 9999;
         audio_rand = Math.floor( Math.random() * 10000 );
         rand_def_mode = Math.floor(Math.random()*rand_def.length);
