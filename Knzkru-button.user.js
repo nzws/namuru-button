@@ -20,7 +20,7 @@
  連絡先: https://knzkoniisan.m.to/@y
 */
 (function() {
-    var css = ".star-icon {filter: grayscale(100%);}.fa-star:before{content: \"\\1F64F\";white-space: nowrap;} .star-icon.active {filter: none;}";
+    var css = ".star-icon {filter: grayscale(100%);}.fa-star:before{content: \"\\1F60B\";white-space: nowrap;} .star-icon.active {filter: none;}";
 
     var node = document.createElement("style");
     node.type = "text/css";
@@ -34,7 +34,6 @@
     var audio_d = Array();
 
     audio_src[0] = "https://yuzu.tk/files/yuzu_1203/knzk.wav";
-
     audio_src[1] = "https://yuzu.tk/files/yuzu_1203/knzk2.wav";
 
     var i = 0;
