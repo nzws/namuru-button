@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Knzkru-button
 // @namespace    https://github.com/yuzulabo
-// @version      1.0.0
+// @version      1.0.1
 // @description  南無りまくれぇ！(神崎おにいさんver)
 // @author       neziri_wasabi (yuzu_1203)
-// @match        https://knzkoniisan.m.to/*
+// @match        https://knzk.me/*
 // @license       MIT License
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js
 // ==/UserScript==
@@ -17,7 +17,7 @@
 
  これらの音声はスクリプト作者の個人サーバにアップロードされていますが、問題があればお問い合わせください。
 
- 連絡先: https://knzkoniisan.m.to/@y
+ 連絡先: https://knzk.me/@y
 */
 (function() {
     var css = ".star-icon {filter: grayscale(100%);}.fa-star:before{content: \"\\1F60B\";white-space: nowrap;} .star-icon.active {filter: none;}";
