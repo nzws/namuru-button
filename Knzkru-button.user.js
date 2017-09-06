@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Knzkru-button
 // @namespace    https://github.com/yuzulabo
-// @version      1.0.1
+// @version      1.0.2
 // @description  南無りまくれぇ！(神崎おにいさんver)
 // @author       neziri_wasabi (yuzu_1203)
 // @match        https://knzk.me/*
@@ -35,6 +35,8 @@
 
     audio_src[0] = "https://yuzu.tk/files/yuzu_1203/knzk.wav";
     audio_src[1] = "https://yuzu.tk/files/yuzu_1203/knzk2.wav";
+    audio_src[2] = "https://yuzu.tk/files/yuzu_1203/knzk3.wav";
+    audio_src[3] = "https://yuzu.tk/files/yuzu_1203/knzk4.wav";
 
     var i = 0;
     while (audio_src[i]) {
