@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Namuru-button
 // @namespace    https://github.com/yuzulabo
-// @version      1.4.1
+// @version      1.4.2
 // @description  南無りまくれぇ！
 // @author       neziri_wasabi (yuzu_1203)
 // @match        https://knzk.me/*
@@ -59,6 +59,12 @@
 
     rand_def[2] = 4;
     audio_src[4] = "https://yuzu.tk/files/yuzu_1203/nc92438.wav";
+
+    rand_sp[2] = 5;
+    audio_src[5] = "https://yuzu.tk/files/yuzu_1203/knzk3.wav";
+
+    rand_sp[3] = 6;
+    audio_src[6] = "https://yuzu.tk/files/yuzu_1203/knzk4.wav";
 
     var i = 0;
     while (audio_src[i]) {
