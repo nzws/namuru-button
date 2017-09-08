@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Knzkru-button
 // @namespace    https://github.com/yuzulabo
-// @version      1.0.2
+// @version      1.0.3
 // @description  南無りまくれぇ！(神崎おにいさんver)
 // @author       neziri_wasabi (yuzu_1203)
 // @match        https://knzk.me/*
@@ -20,7 +20,7 @@
  連絡先: https://knzk.me/@y
 */
 (function() {
-    var css = ".star-icon {filter: grayscale(100%);}.fa-star:before{content: \"\\1F60B\";white-space: nowrap;} .star-icon.active {filter: none;}";
+    var css = ".star-icon, .icon-button {filter: grayscale(100%);}.fa-star:before{content: \"\\1F60B\";white-space: nowrap;} .star-icon.active, .icon-button.active {filter: none;}";
 
     var node = document.createElement("style");
     node.type = "text/css";
