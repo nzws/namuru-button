@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Namuru-button
 // @namespace    https://github.com/yuzulabo
-// @version      1.4.2
+// @version      1.4.3
 // @description  南無りまくれぇ！
 // @author       neziri_wasabi (yuzu_1203)
 // @match        https://knzk.me/*
@@ -27,7 +27,7 @@
  連絡先: https://knzk.me/@y
 */
 (function() {
-    var css = ".star-icon {filter: grayscale(100%);}.fa-star:before{content: \"\\1F64F\";white-space: nowrap;} .star-icon.active {filter: none;}";
+    var css = ".star-icon, .icon-button {filter: grayscale(100%);}.fa-star:before{content: \"\\1F64F\";white-space: nowrap;} .star-icon.active, .icon-button.active {filter: none;}";
 
     // 旧版「ﾅﾑ」ボタンを有効化するには次の行のコメントアウトを削除
     // css = ".fa-star:before {content: \"ﾅﾑ\";white-space: nowrap;}";
